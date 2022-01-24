@@ -10,18 +10,15 @@ import "./Interface/IBondingCurve.sol";
 import "./BancorFormula.sol";
 import "./MaxGasPrice.sol";
 
-contract CurveBondedToken is IBondingCurve, BancorFormula, Ownable, MaxGasPrice, ERC20 {
+contract CurveBondedToken is ERC20 ,  IBondingCurve, BancorFormula, Ownable, MaxGasPrice {
     using SafeMath for uint256;
 
     // Use the same decimal places as ether.
     uint256 public scale = 10**18;
     uint256 public poolBalance = 1*scale;
-    uint256 public reserveRatio= 100000;
-   
-    uint256 _totalSupply;
-ERC20 token;
-    constructor( address tok )  ERC20("Mahesh","MB") {
-        _totalSupply=10*scale;
+    uint256 public reserveRatio= 300000;
+     ERC20 token;
+    constructor(string memory name,string memory symbol, address tok )  ERC20(name,symbol,100*scale) {
         token=ERC20(tok);
     }
 
@@ -51,7 +48,7 @@ ERC20 token;
     function _curvedMint(uint256 _deposit) 
         validGasPrice
         validMint(_deposit)
-        internal returns (bool)
+        public returns (bool)
     {
             uint256 allowance = token.allowance(msg.sender, address(this));
     require(allowance >= _deposit, "Check the token allowance");
@@ -66,7 +63,7 @@ ERC20 token;
     function _curvedBurn(uint256 _amount)
         validGasPrice
         validBurn(_amount)
-        internal returns (bool)
+        public returns (bool)
     {
         uint256 reimbursement = calculateCurvedBurnReturn(_amount);
         poolBalance = poolBalance.sub(reimbursement);

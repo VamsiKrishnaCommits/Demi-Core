@@ -104,14 +104,14 @@
     "absolutePath": "project:/contracts/Interface/IBondingCurve.sol",
     "exportedSymbols": {
       "IBondingCurve": [
-        1590
+        1594
       ]
     },
-    "id": 1591,
+    "id": 1595,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1558,
+        "id": 1562,
         "literals": [
           "solidity",
           "^",
@@ -128,15 +128,15 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 1559,
+          "id": 1563,
           "nodeType": "StructuredDocumentation",
           "src": "26:116:8",
           "text": " @title Bonding Curve Interface\n @dev A bonding curve is a method for continous token minting / burning."
         },
         "fullyImplemented": false,
-        "id": 1590,
+        "id": 1594,
         "linearizedBaseContracts": [
-          1590
+          1594
         ],
         "name": "IBondingCurve",
         "nameLocation": "153:13:8",
@@ -144,23 +144,23 @@
         "nodes": [
           {
             "anonymous": false,
-            "id": 1567,
+            "id": 1571,
             "name": "CurvedMint",
             "nameLocation": "180:10:8",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1566,
+              "id": 1570,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1561,
+                  "id": 1565,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "sender",
                   "nameLocation": "207:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1567,
+                  "scope": 1571,
                   "src": "191:22:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -169,7 +169,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1560,
+                    "id": 1564,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "191:7:8",
@@ -183,13 +183,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1563,
+                  "id": 1567,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "223:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1567,
+                  "scope": 1571,
                   "src": "215:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -198,7 +198,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1562,
+                    "id": 1566,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "215:7:8",
@@ -211,13 +211,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1565,
+                  "id": 1569,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "deposit",
                   "nameLocation": "239:7:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1567,
+                  "scope": 1571,
                   "src": "231:15:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -226,7 +226,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1564,
+                    "id": 1568,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "231:7:8",
@@ -244,23 +244,23 @@
           },
           {
             "anonymous": false,
-            "id": 1575,
+            "id": 1579,
             "name": "CurvedBurn",
             "nameLocation": "259:10:8",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1574,
+              "id": 1578,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1569,
+                  "id": 1573,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "sender",
                   "nameLocation": "286:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1575,
+                  "scope": 1579,
                   "src": "270:22:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -269,7 +269,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1568,
+                    "id": 1572,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "270:7:8",
@@ -283,13 +283,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1571,
+                  "id": 1575,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "302:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1575,
+                  "scope": 1579,
                   "src": "294:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -298,7 +298,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1570,
+                    "id": 1574,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "294:7:8",
@@ -311,13 +311,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1573,
+                  "id": 1577,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "reimbursement",
                   "nameLocation": "318:13:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1575,
+                  "scope": 1579,
                   "src": "310:21:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -326,7 +326,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1572,
+                    "id": 1576,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "310:7:8",
@@ -344,7 +344,7 @@
           },
           {
             "functionSelector": "9a4f318b",
-            "id": 1582,
+            "id": 1586,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -352,17 +352,17 @@
             "nameLocation": "348:25:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1578,
+              "id": 1582,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1577,
+                  "id": 1581,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "382:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1582,
+                  "scope": 1586,
                   "src": "374:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -371,7 +371,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1576,
+                    "id": 1580,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "374:7:8",
@@ -386,17 +386,17 @@
               "src": "373:16:8"
             },
             "returnParameters": {
-              "id": 1581,
+              "id": 1585,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1580,
+                  "id": 1584,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1582,
+                  "scope": 1586,
                   "src": "437:7:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -405,7 +405,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1579,
+                    "id": 1583,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "437:7:8",
@@ -419,7 +419,7 @@
               ],
               "src": "436:9:8"
             },
-            "scope": 1590,
+            "scope": 1594,
             "src": "339:107:8",
             "stateMutability": "view",
             "virtual": false,
@@ -427,7 +427,7 @@
           },
           {
             "functionSelector": "6d6f1e01",
-            "id": 1589,
+            "id": 1593,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -435,17 +435,17 @@
             "nameLocation": "461:25:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1585,
+              "id": 1589,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1584,
+                  "id": 1588,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "495:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1589,
+                  "scope": 1593,
                   "src": "487:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -454,7 +454,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1583,
+                    "id": 1587,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "487:7:8",
@@ -469,17 +469,17 @@
               "src": "486:16:8"
             },
             "returnParameters": {
-              "id": 1588,
+              "id": 1592,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1587,
+                  "id": 1591,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1589,
+                  "scope": 1593,
                   "src": "550:7:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -488,7 +488,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1586,
+                    "id": 1590,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "550:7:8",
@@ -502,14 +502,14 @@
               ],
               "src": "549:9:8"
             },
-            "scope": 1590,
+            "scope": 1594,
             "src": "452:107:8",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1591,
+        "scope": 1595,
         "src": "143:418:8",
         "usedErrors": []
       }
@@ -520,14 +520,14 @@
     "absolutePath": "project:/contracts/Interface/IBondingCurve.sol",
     "exportedSymbols": {
       "IBondingCurve": [
-        1590
+        1594
       ]
     },
-    "id": 1591,
+    "id": 1595,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1558,
+        "id": 1562,
         "literals": [
           "solidity",
           "^",
@@ -544,15 +544,15 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 1559,
+          "id": 1563,
           "nodeType": "StructuredDocumentation",
           "src": "26:116:8",
           "text": " @title Bonding Curve Interface\n @dev A bonding curve is a method for continous token minting / burning."
         },
         "fullyImplemented": false,
-        "id": 1590,
+        "id": 1594,
         "linearizedBaseContracts": [
-          1590
+          1594
         ],
         "name": "IBondingCurve",
         "nameLocation": "153:13:8",
@@ -560,23 +560,23 @@
         "nodes": [
           {
             "anonymous": false,
-            "id": 1567,
+            "id": 1571,
             "name": "CurvedMint",
             "nameLocation": "180:10:8",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1566,
+              "id": 1570,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1561,
+                  "id": 1565,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "sender",
                   "nameLocation": "207:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1567,
+                  "scope": 1571,
                   "src": "191:22:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -585,7 +585,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1560,
+                    "id": 1564,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "191:7:8",
@@ -599,13 +599,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1563,
+                  "id": 1567,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "223:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1567,
+                  "scope": 1571,
                   "src": "215:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -614,7 +614,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1562,
+                    "id": 1566,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "215:7:8",
@@ -627,13 +627,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1565,
+                  "id": 1569,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "deposit",
                   "nameLocation": "239:7:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1567,
+                  "scope": 1571,
                   "src": "231:15:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -642,7 +642,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1564,
+                    "id": 1568,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "231:7:8",
@@ -660,23 +660,23 @@
           },
           {
             "anonymous": false,
-            "id": 1575,
+            "id": 1579,
             "name": "CurvedBurn",
             "nameLocation": "259:10:8",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1574,
+              "id": 1578,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1569,
+                  "id": 1573,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "sender",
                   "nameLocation": "286:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1575,
+                  "scope": 1579,
                   "src": "270:22:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -685,7 +685,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1568,
+                    "id": 1572,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "270:7:8",
@@ -699,13 +699,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1571,
+                  "id": 1575,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "302:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1575,
+                  "scope": 1579,
                   "src": "294:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -714,7 +714,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1570,
+                    "id": 1574,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "294:7:8",
@@ -727,13 +727,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1573,
+                  "id": 1577,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "reimbursement",
                   "nameLocation": "318:13:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1575,
+                  "scope": 1579,
                   "src": "310:21:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -742,7 +742,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1572,
+                    "id": 1576,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "310:7:8",
@@ -760,7 +760,7 @@
           },
           {
             "functionSelector": "9a4f318b",
-            "id": 1582,
+            "id": 1586,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -768,17 +768,17 @@
             "nameLocation": "348:25:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1578,
+              "id": 1582,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1577,
+                  "id": 1581,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "382:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1582,
+                  "scope": 1586,
                   "src": "374:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -787,7 +787,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1576,
+                    "id": 1580,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "374:7:8",
@@ -802,17 +802,17 @@
               "src": "373:16:8"
             },
             "returnParameters": {
-              "id": 1581,
+              "id": 1585,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1580,
+                  "id": 1584,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1582,
+                  "scope": 1586,
                   "src": "437:7:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -821,7 +821,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1579,
+                    "id": 1583,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "437:7:8",
@@ -835,7 +835,7 @@
               ],
               "src": "436:9:8"
             },
-            "scope": 1590,
+            "scope": 1594,
             "src": "339:107:8",
             "stateMutability": "view",
             "virtual": false,
@@ -843,7 +843,7 @@
           },
           {
             "functionSelector": "6d6f1e01",
-            "id": 1589,
+            "id": 1593,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -851,17 +851,17 @@
             "nameLocation": "461:25:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1585,
+              "id": 1589,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1584,
+                  "id": 1588,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "495:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1589,
+                  "scope": 1593,
                   "src": "487:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -870,7 +870,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1583,
+                    "id": 1587,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "487:7:8",
@@ -885,17 +885,17 @@
               "src": "486:16:8"
             },
             "returnParameters": {
-              "id": 1588,
+              "id": 1592,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1587,
+                  "id": 1591,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1589,
+                  "scope": 1593,
                   "src": "550:7:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -904,7 +904,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1586,
+                    "id": 1590,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "550:7:8",
@@ -918,14 +918,14 @@
               ],
               "src": "549:9:8"
             },
-            "scope": 1590,
+            "scope": 1594,
             "src": "452:107:8",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1591,
+        "scope": 1595,
         "src": "143:418:8",
         "usedErrors": []
       }
@@ -938,7 +938,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-21T18:02:19.782Z",
+  "updatedAt": "2022-01-23T08:00:15.962Z",
   "devdoc": {
     "details": "A bonding curve is a method for continous token minting / burning.",
     "kind": "dev",
